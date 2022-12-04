@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.imperiummc.ores.imperiummcores.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "imperiummc_ores.refmap.json",
+  "mixins": [
+    "MixinBiomeDefaultFeatures",
+    "MixinOreFeatures",
+    "MixinOrePlacements",
+    "OreFeaturesAccessor",
+    "OrePlacementsAccessor"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
